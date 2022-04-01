@@ -1,5 +1,4 @@
 //1
-//
 //Assignment 6: Inheritance
 //1.Create a class Car with the following attributes: make, model, color, capacity.
 //It has these functions:
@@ -11,14 +10,7 @@
 //format e.g:  “I am a white subaru legacy”(1 point)
 //-calculateParkingFees(hours: Int) : Calculates andreturns the
 //parking fees by multiplying the hours by 20(1 point)
-//2.Create a class Bus with the same attributes and functions as the Car class.
-//In addition, it has another method calledmaxTripFare(fare: Double) that
-//calculates and returns the maximum amount of fare that can be collected per
-//trip.(2 points)
-//The bus’calculateParkingFees method returns the productof hours and
-//the capacity of the bus(3 points)
-//Make use of inheritance to avoid duplication. Also be sure to instantiate both classes
-//and call each of the functions on the objects.
+
 fun main(){
 
     var car = Car("Mercedes", "GLE 350", "Black",8)
